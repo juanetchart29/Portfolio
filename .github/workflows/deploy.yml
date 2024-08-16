@@ -26,7 +26,7 @@ jobs:
       - name: Upload build artifact
         uses: actions/upload-artifact@v4
         with:
-          name: build
+          name: github-pages
           path: public  # Ruta del directorio donde Astro genera el sitio estático
 
   deploy:
