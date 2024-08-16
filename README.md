@@ -1,1 +1,1 @@
-juanetchart29.io
+juanetchart29.github.io
