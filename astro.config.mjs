@@ -8,8 +8,6 @@ import node from "@astrojs/node";
 export default defineConfig({
   server: { port: 3000 },
   site: "https://juanetchart29.github.io",
-  
-
   integrations: [tailwind(), robotsTxt()],
   // output: "server",
   // adapter: node({
