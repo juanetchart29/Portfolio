@@ -1,0 +1,36 @@
+---
+import ExperienceItem from "./ExperienceItem.astro"
+const EXPERIENCIE = [
+{
+    date: "MAY 2024 - Present",
+    title: ".Net - BACKEND DEVELOPER",
+    company: "Data108",
+    description: "Responsible for developing and maintaining backend services using .NET Core, including the design and implementation of APIs, Azure Functions, Logic Apps, and CI/CD pipelines. Experienced in leveraging ASP.NET for scalable and efficient web applications.",
+    link: "https://www.linkedin.com/company/data108/posts/?feedView=all",
+  },
+  {
+    date: "MAY 2024 - AGO 2024",
+    title: "QA MANUAL -  INTERN ",
+    company: "THE BANK OF THE ARGENTINE NATION",
+    description: "During my internship at the Bank of the Argentine Nation, I worked as a Manual QA Tester. I was responsible for testing foreign trade applications, executing jobs on the mainframe using a host, and ensuring the accuracy and reliability of the software. My role involved closely monitoring system performance and validating that all processes ran smoothly.",
+    link: "https://www.bna.com.ar/",
+  },
+  {
+    date: "DEC 2022 - MAY 2024",
+    title: "BLOCKCHAIN ENGINEER - UNITY & REACT Specialist",
+    company: "Inside Dark Studio",
+    description: "At Inside Dark Studio, seamless integration between products and the backend is achieved using technologies such as microservices, HTTP requests, WebSocket, C#, Unity, React, and Web3 wallets. My role focuses on leading projects, adapting to new technologies, collaborating effectively, and developing integrations to enhance product functionality.",
+    link: "https://insidedarkstudio.com/team"
+  },
+]
+---
+
+<ol class="relative mt-16">
+  {
+    EXPERIENCIE.map((experiencie) => (
+      <li class="">
+        <ExperienceItem {...experiencie} />
+      </li>
+    ))
+  }
+</ol>
