@@ -7,8 +7,7 @@ import node from "@astrojs/node";
 // https://astro.build/config
 export default defineConfig({
   server: { port: 3000 },
-  // site: "https://fedahumada.github.io",
-  site: "http://localhost:3000",
+  site: "https://juanetchart29.github.io",
   
 
   integrations: [tailwind(), robotsTxt()],
